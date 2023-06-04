@@ -31,7 +31,7 @@ def list_jobs():
 if __name__ == '__main__':
     # Set the host and port
     host = '0.0.0.0'  # Change to your desired host, e.g., 'localhost'
-    port = 5001  # Change to your desired port number
+    #port = 5001   Change to your desired port number
 
     # Run the Flask application
-    app.run(host=host, port=port)
+    app.run(host=host, debug=True)#port=port)
