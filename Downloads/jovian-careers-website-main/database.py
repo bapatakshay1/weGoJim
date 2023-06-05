@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, text
 #pip install pymysql
 #pip install sqlalchemy
 
-db_connection_string="mysql+pymysql://rik2xhp6wye970ywuaac:pscale_pw_eTfYHGqNEM43XMFYtHFEg52PWTOMSpZ6oFqeJfKNXLs@aws.connect.psdb.cloud/wegojim?charset=utf8mb4"
+db_connection_string=secret_string
 
 engine = create_engine(db_connection_string,
     connect_args={
